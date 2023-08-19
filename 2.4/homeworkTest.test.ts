@@ -168,3 +168,6 @@ describe("Employee Manager 1.2", () => {
         });
     });
 });
+//This is all new to me and still very foreign. I still feel intimidated lol.
+//Finding the right verbage and knowing the the terms and what they do, I feel like I
+//have to study up on that and have it memorized. 
