@@ -26,7 +26,7 @@ const cancelButton: By = By.name("cancel");
 const errorCard: By = By.css(".errorCard");
 
 describe("Employee Manager 1.2", () => {
-
+//what is a before each
     beforeEach(async () => {
         await driver.get(
         "https://devmountain-qa.github.io/employee-manager/1.2_Version/index.html"
