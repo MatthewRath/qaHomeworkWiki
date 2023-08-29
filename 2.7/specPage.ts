@@ -27,7 +27,7 @@ export class specPage {
         return (await this.driver.findElement(elementBy)).getText()
     }
     async doSearch(test: string) {
-        return this.sendKeys(this.searchBar, ('uh oh hotdog\n'))
+        return this.sendKeys(this.searchBar, ('${test}\n'))
     }
     async getResults() {
         return this.getText(this.results)
